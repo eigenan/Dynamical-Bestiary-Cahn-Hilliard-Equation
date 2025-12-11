@@ -1,13 +1,13 @@
 # Dynamical-Bestiary-Cahn-Hilliard-Equation
-Python notebooks for the Cahn-Hilliard equation.
-
-## 1. 2-dimensional Cahn-Hilliard equation
+Python notebooks for the 2-dimensional Cahn-Hilliard equation
 
 $$
 \partial_t c = M \nabla^2 \big(f'(c) - \epsilon^2 \nabla^2 c\big)
 $$
 
-on a periodic square domain, solved using baby continuation scheme.
+on a periodic square domain.
+
+## 1. Continuation scheme
 
 ### Continuation in $\alpha$
 
@@ -20,3 +20,8 @@ on a periodic square domain, solved using baby continuation scheme.
 <img width="1189" height="333" alt="2dch_c" src="https://github.com/user-attachments/assets/e85b132c-6cee-476b-8d42-8b41274f170f" />
 
 <img width="426" height="364" alt="2dch_cb" src="https://github.com/user-attachments/assets/0c878f14-f0fc-4ba0-aa36-83360aba0983" />
+
+## 2. Direct simulation using implicit Euler
+
+https://github.com/user-attachments/assets/0478c51d-413e-4e7f-8566-85aec6f5e3d7
+
